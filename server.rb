@@ -1,10 +1,6 @@
-#learning how to put things in the web with sinatra
-require 'sinatra'
+require 'rubygems'
+require "sinatra"
 
 get '/' do
-  "Hello World"
-end
-
-get '/wyncode' do
-  "Hello wyncode"
+ File.read(File.join('public', 'hello.txt'))
 end
