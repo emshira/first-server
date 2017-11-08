@@ -1,3 +1,4 @@
+#learning how to put things in the web with sinatra
 require 'sinatra'
 
 get '/' do
@@ -5,5 +6,5 @@ get '/' do
 end
 
 get '/wyncode' do
-  "Hello World"
+  "Hello wyncode"
 end
